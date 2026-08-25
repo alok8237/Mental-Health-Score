@@ -96,7 +96,7 @@
 
     const numericChecks = [
       ["age", 10, 100],
-      ["avg_daily_usage_hours", 6, 24],
+      ["avg_daily_usage_hours", 0, 24],
       ["daily_unlocks", 0, Infinity],
       ["study_hours", 0, 24],
       ["physical_activity_hours", 0, 24],

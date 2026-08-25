@@ -27,7 +27,7 @@ class StudentData(BaseModel):
        'YouTube', 'TikTok', 'LINE', 'KakaoTalk', 'VKontakte', 'WhatsApp',
        'WeChat']
     purpose_of_use: Literal['Networking','Education','Entertainment','News']
-    avg_daily_usage_hours: float=Field(...,ge=6,le=24)
+    avg_daily_usage_hours: float=Field(...,ge=0,le=24)
     daily_unlocks: int=Field(...,ge=0)
     study_hours: float=Field(...,ge=0,le=24)
     physical_activity_hours: float=Field(...,ge=0,le=24)
